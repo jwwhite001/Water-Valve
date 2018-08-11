@@ -12,7 +12,7 @@
  *
  */
 metadata {
-	definition (name: "Jim's Water Valve", namespace: "jwwhite", author: "jim", ocfDeviceType: "oic.d.watervalve", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false) {
+	definition (name: "Jim's Water Valve", namespace: "jwwhite", author: "jim", ocfDeviceType: "oic.d.watervalve", runLocally: false, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false) {
 		capability "Actuator"
 		capability "Health Check"
 		capability "Valve"
